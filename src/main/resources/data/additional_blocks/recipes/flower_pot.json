@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "additional_blocks:clay_pot"
+  },
+  "result": "minecraft:flower_pot",
+  "experience": 0.3,
+  "cookingtime": 200
+}
