@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:brick"
+      },
+      {
+        "item": "minecraft:nether_brick"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:netherite_ingot"
+      }
+    ],
+    {
+      "item": "minecraft:clay"
+    }
+  ],
+  "result": {
+    "item": "additional_blocks:clay_mold",
+    "count": 8
+  }
+}

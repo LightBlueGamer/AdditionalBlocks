@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "additional_blocks:block/clay_brick_slab"
+    },
+    "type=double": {
+      "model": "additional_blocks:block/clay_bricks"
+    },
+    "type=top": {
+      "model": "additional_blocks:block/clay_brick_slab_top"
+    }
+  }
+}

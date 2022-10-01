@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "additional_blocks:clay_bricks"
+    }
+  },
+  "result": {
+    "item": "additional_blocks:clay_brick_wall",
+    "count": 6
+  }
+}

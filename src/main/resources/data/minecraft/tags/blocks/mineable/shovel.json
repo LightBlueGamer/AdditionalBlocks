@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "additional_blocks:clay_bricks"
+    "additional_blocks:clay_bricks",
+    "additional_blocks:clay_brick_slab",
+    "additional_blocks:clay_brick_stairs",
+    "additional_blocks:clay_brick_wall"
   ]
 }

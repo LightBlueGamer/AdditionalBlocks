@@ -3,7 +3,12 @@
 
   "item.additional_blocks.clay_brick": "Clay Brick",
   "item.additional_blocks.clay_pot": "Clay Pot",
+  "item.additional_blocks.clay_mold": "Clay Mold",
+  "item.additional_blocks.fired_clay_mold": "Fired Clay Mold",
+  "item.additional_blocks.molten_iron_bucket": "Molten Iron Bucket",
 
-  "block.additional_blocks.clay_bricks": "Clay Bricks"
-
+  "block.additional_blocks.clay_bricks": "Clay Bricks",
+  "block.additional_blocks.clay_brick_stairs": "Clay Brick Stairs",
+  "block.additional_blocks.clay_brick_slab": "Clay Brick Slab",
+  "block.additional_blocks.clay_brick_wall": "Clay Brick Wall"
 }

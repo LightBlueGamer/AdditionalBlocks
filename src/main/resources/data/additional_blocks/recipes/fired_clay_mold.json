@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "additional_blocks:clay_mold"
+  },
+  "result": "additional_blocks:fired_clay_mold",
+  "experience": 0.3,
+  "cookingtime": 200
+}

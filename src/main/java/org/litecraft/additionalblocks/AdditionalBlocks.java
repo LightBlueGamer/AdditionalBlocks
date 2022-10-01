@@ -1,6 +1,8 @@
 package org.litecraft.additionalblocks;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -9,6 +11,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.litecraft.additionalblocks.block.ModBlocks;
+import org.litecraft.additionalblocks.fluid.ModFluidTypes;
+import org.litecraft.additionalblocks.fluid.ModFluids;
 import org.litecraft.additionalblocks.item.ModItems;
 import org.slf4j.Logger;
 
@@ -22,6 +26,9 @@ public class AdditionalBlocks {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModFluids.register(modEventBus);
+        ModFluidTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -38,7 +45,8 @@ public class AdditionalBlocks {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_MOLTEN_IRON.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_MOLTEN_IRON.get(), RenderType.translucent());
         }
     }
 }

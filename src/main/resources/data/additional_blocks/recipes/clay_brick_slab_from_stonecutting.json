@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "additional_blocks:clay_bricks"
+  },
+  "result": "additional_blocks:clay_brick_slab",
+  "count": 2
+}

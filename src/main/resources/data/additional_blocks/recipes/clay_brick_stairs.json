@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C  ",
+    "CC ",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "additional_blocks:clay_bricks"
+    }
+  },
+  "result": {
+    "item": "additional_blocks:clay_brick_stairs",
+    "count": 4
+  }
+}

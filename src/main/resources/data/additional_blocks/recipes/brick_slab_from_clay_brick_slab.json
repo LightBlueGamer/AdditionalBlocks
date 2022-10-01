@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "additional_blocks:clay_brick_slab"
+  },
+  "result": "minecraft:brick_slab",
+  "experience": 0.3,
+  "cookingtime": 200
+}
